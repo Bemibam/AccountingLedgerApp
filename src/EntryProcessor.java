@@ -169,7 +169,7 @@ public class EntryProcessor {
         String desc = input.nextLine().trim().toLowerCase();
         System.out.print("Vendor: ");
         String vendor = input.nextLine().trim().toLowerCase();
-        System.out.print("Amount (e.g. 100.00): ");
+        System.out.print("Amount: ");
         String amt = input.nextLine().trim();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(FILE))) {

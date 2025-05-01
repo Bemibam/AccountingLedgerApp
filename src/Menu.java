@@ -109,6 +109,9 @@ public class Menu {
                 case "5":
                     entryProcessor.searchByVendor();
                     break;
+                case "6":
+                    entryProcessor.customSearch();
+                    break;
                 case "0":
                     System.out.println("Back to Ledger Menu...");
                     break;
