@@ -46,6 +46,10 @@ All entries are saved to a file called transactions.csv, so your data is never l
 
 💡 Interesting Code That Made Things Easier
 Instead of using long if-else chains or traditional switch-case blocks, I used arrow-based switch expressions, which are cleaner and easier to read:
+switch (option) {
+    case "D" -> entryProcessor.recordEntry(true);
+    case "P" -> entryProcessor.recordEntry(false);
+}
 
 
 
