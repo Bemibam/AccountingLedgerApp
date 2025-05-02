@@ -88,7 +88,6 @@ public class Menu {
             System.out.println("5 - Search by Vendor");
             System.out.println("6 - Custom Search");
             System.out.println("0 - Back to Ledger Menu");
-            System.out.println("H - Back to Report Menu");
             System.out.print("Select an option: ");
 
             option = input.nextLine().trim();

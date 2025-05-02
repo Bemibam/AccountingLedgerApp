@@ -186,23 +186,23 @@ public class EntryProcessor {
                 String v = p[3].toLowerCase();
                 double a = Double.parseDouble(p[4]);
 
-                boolean match = true;
+                boolean input = true;
 
                 // Apply filters only if input was provided
-                if (!start.isEmpty() && date.isBefore(LocalDate.parse(start))) match = false;
-                if (!end.isEmpty() && date.isAfter(LocalDate.parse(end))) match = false;
-                if (!desc.isEmpty() && !d.contains(desc)) match = false;
-                if (!vendor.isEmpty() && !v.contains(vendor)) match = false;
+                if (!start.isEmpty() && date.isBefore(LocalDate.parse(start))) input = false;
+                if (!end.isEmpty() && date.isAfter(LocalDate.parse(end))) input = false;
+                if (!desc.isEmpty() && !d.contains(desc)) input = false;
+                if (!vendor.isEmpty() && !v.contains(vendor)) input = false;
                 if (!amt.isEmpty()) {
                     try {
-                        if (a != Double.parseDouble(amt)) match = false;
+                        if (a != Double.parseDouble(amt)) input = false;
                     } catch (NumberFormatException e) {
-                        match = false;
+                        input = false;
                     }
                 }
 
                 // Show result if all conditions match
-                if (match) System.out.println(line);
+                if (input) System.out.println(line);
             }
 
         } catch (IOException e) {
