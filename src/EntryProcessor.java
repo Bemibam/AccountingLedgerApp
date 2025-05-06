@@ -34,10 +34,18 @@ public class EntryProcessor {
                     amount *= -1;
                 }
 
+
                 // Create and save transaction
                 String line = String.format("%s|%s|%s|%s|%.2f\n", date, time, description, vendor, amount);
                 writer.write(line);
                 writer.flush();
+
+                //  Confirmation message added here
+                System.out.printf(" %s of $%.2f to '%s' for '%s' was successfully recorded.\n",
+                        isDeposit ? "Deposit" : "Payment",
+                        Math.abs(amount),
+                        vendor,
+                        description);
 
                 System.out.print("\nAdd another? (X to return, anything else to continue): ");
                 option = input.nextLine().trim().toUpperCase();

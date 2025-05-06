@@ -8,7 +8,7 @@ public class Menu {
 
     public static void showHome() {
         String option;
-
+        // Show options to user
         do {
             System.out.println("\n===== Home Menu =====");
             System.out.println("D - Add Deposit");
@@ -16,18 +16,18 @@ public class Menu {
             System.out.println("L - View Ledger");
             System.out.println("X - Exit");
             System.out.print("Enter your choice: ");
-
+// Read input and normalize
             option = input.nextLine().trim().toUpperCase();
-
+            // Handle input
             switch (option) {
                 case "D":
-                    entryProcessor.recordEntry(true);  // Deposit
+                    entryProcessor.recordEntry(true);  // User wants to deposit
                     break;
                 case "P":
-                    entryProcessor.recordEntry(false); // Payment
+                    entryProcessor.recordEntry(false); //  make Payment
                     break;
                 case "L":
-                    openLedgerMenu();
+                    openLedgerMenu(); // Open the ledger menu
                     break;
                 case "X":
                     System.out.println("Exiting the app. Goodbye!");
@@ -36,7 +36,7 @@ public class Menu {
                     System.out.println("Invalid input. Please try again.");
             }
 
-        } while (!option.equals("X"));
+        } while (!option.equals("X")); // Repeat until user exits
     }
 
     private static void openLedgerMenu() {
@@ -78,7 +78,7 @@ public class Menu {
 
     private static void openReportsMenu() {
         String option;
-
+        // Display ledger filter options
         do {
             System.out.println("\n----- Reports Menu -----");
             System.out.println("1 - Month To Date");
@@ -90,6 +90,7 @@ public class Menu {
             System.out.println("0 - Back to Ledger Menu");
             System.out.print("Select an option: ");
 
+            // Get user choice
             option = input.nextLine().trim();
 
             switch (option) {
