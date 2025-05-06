@@ -1,3 +1,5 @@
+![ChatGPT Image May 5, 2025, 10_54_52 PM](https://github.com/user-attachments/assets/f5e6b951-bfd4-4146-8230-0f9fce884530)
+
 📘✨ 𝐅𝐢𝐫𝐬𝐭 𝐂𝐚𝐩𝐬𝐭𝐨𝐧𝐞 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 ✨📘
 💰 𝐀𝐜𝐜𝐨𝐮𝐧𝐭𝐢𝐧𝐠 𝐋𝐞𝐝𝐠𝐞𝐫 𝐀𝐩𝐩 💼
 📊 Track deposits, payments, and run reports with a clean, user-friendly Java CLI interface ☕
