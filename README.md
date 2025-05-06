@@ -1,3 +1,8 @@
+📘✨ 𝐅𝐢𝐫𝐬𝐭 𝐂𝐚𝐩𝐬𝐭𝐨𝐧𝐞 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 ✨📘
+💰 𝐀𝐜𝐜𝐨𝐮𝐧𝐭𝐢𝐧𝐠 𝐋𝐞𝐝𝐠𝐞𝐫 𝐀𝐩𝐩 💼
+📊 Track deposits, payments, and run reports with a clean, user-friendly Java CLI interface ☕
+
+
 Accounting Ledger App
 This is a simple and user-friendly command-line application built with Java. It helps you keep track of your finances by letting you record deposits, payments, and other transactions. Everything is saved in a file called transactions.csv, so you don’t lose data.
 
@@ -57,10 +62,21 @@ switch (option) {
 
 =====================================================================================================================================================
 ScreenShot Added
-<img width="1350" alt="Screenshot 2025-05-01 at 4 38 29 PM" src="https://github.com/user-attachments/assets/72c44acc-db04-4f3b-b782-a17679e9be9a" />
-<img width="1340" alt="Screenshot 2025-05-01 at 4 39 34 PM" src="https://github.com/user-attachments/assets/01573d8a-cbc2-4f6c-b6d1-42c2f5b8af67" />
-<img width="1146" alt="Screenshot 2025-05-01 at 4 39 11 PM" src="https://github.com/user-attachments/assets/a0bd571f-2e98-44c9-a78f-f1852f253040" />
-<img width="1298" alt="Screenshot 2025-05-01 at 4 48 24 PM" src="https://github.com/user-attachments/assets/0af0e644-50a6-4dd0-8a3f-01977340781a" />
+<img width="1113" alt="Screenshot 2025-05-05 at 10 38 56 PM" src="https://github.com/user-attachments/assets/2f2df9e6-c1ca-449f-87ee-ff18ead5106c" />
+<img width="1097" alt="Screenshot 2025-05-05 at 10 39 30 PM" src="https://github.com/user-attachments/assets/7c12e76e-fd47-46b0-bebf-55646f24405d" />
+<img width="1083" alt="Screenshot 2025-05-05 at 10 40 09 PM" src="https://github.com/user-attachments/assets/73653d72-ea65-4dd3-a964-d4debd17fc0c" />
+<img width="1103" alt="Screenshot 2025-05-05 at 10 40 29 PM" src="https://github.com/user-attachments/assets/65b0a3c3-f88b-4416-9ba9-7f87f32e81e1" />
+<img width="1124" alt="Screenshot 2025-05-05 at 10 41 02 PM" src="https://github.com/user-attachments/assets/eb5282c0-bbb7-4479-b45d-7e006823da77" />
+<img width="1104" alt="Screenshot 2025-05-05 at 10 41 34 PM" src="https://github.com/user-attachments/assets/0d674453-051f-47f5-b607-7ef073eb1265" />
+
+
+
+
+
+
+
+
+
 
 
 
